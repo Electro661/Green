@@ -1,0 +1,9 @@
+from colorama import *
+from random import *
+
+init()
+
+while True:
+    print(Fore.GREEN, Style.DIM + str(randint(0, 9999999)), end = '')
+
+
